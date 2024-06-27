@@ -1,0 +1,35 @@
+{
+  "homepage": "http://Eyob-coder.github.io/0x01-react_intro"
+  "name": "create-dashboard",
+  "description": "description",
+  "version": "0.1.0",
+  "author": "Eyob-coder <oddjobera@gmail.com>",
+  "files": [
+    "dashboard",
+  ],
+  "scripts": {
+        "start": "react-scripts start",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {},
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+  "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+},
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.7",
+  }
+}
